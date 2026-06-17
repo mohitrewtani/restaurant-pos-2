@@ -1,0 +1,162 @@
+// src/data/menuData.js
+// Edit this file to update your restaurant menu
+
+export const restaurant = {
+  name: "Spice Garden",
+  tagline: "Authentic flavours, crafted with love",
+  address: "12, Civil Lines, Raipur, Chhattisgarh",
+  phone: "+91 98765 43210",
+  hours: "11:00 AM – 11:00 PM",
+  currency: "₹",
+};
+
+export const categories = [
+  { id: "starters", label: "Starters" },
+  { id: "mains", label: "Main Course" },
+  { id: "breads", label: "Breads" },
+  { id: "desserts", label: "Desserts" },
+  { id: "drinks", label: "Drinks" },
+];
+
+export const menuItems = [
+  // Starters
+  {
+    id: 1,
+    category: "starters",
+    name: "Paneer Tikka",
+    description: "Soft cottage cheese cubes marinated in spiced yoghurt, grilled in tandoor.",
+    price: 220,
+    veg: true,
+    popular: true,
+  },
+  {
+    id: 2,
+    category: "starters",
+    name: "Chicken Seekh Kebab",
+    description: "Minced chicken blended with herbs and spices, skewered and chargrilled.",
+    price: 280,
+    veg: false,
+    popular: true,
+  },
+  {
+    id: 3,
+    category: "starters",
+    name: "Crispy Corn",
+    description: "Golden fried sweet corn tossed with chillies, lime, and chaat masala.",
+    price: 160,
+    veg: true,
+    popular: false,
+  },
+  // Mains
+  {
+    id: 4,
+    category: "mains",
+    name: "Dal Makhani",
+    description: "Slow-cooked black lentils simmered overnight in butter and cream.",
+    price: 240,
+    veg: true,
+    popular: true,
+  },
+  {
+    id: 5,
+    category: "mains",
+    name: "Butter Chicken",
+    description: "Tender chicken in a rich, velvety tomato-butter sauce.",
+    price: 320,
+    veg: false,
+    popular: true,
+  },
+  {
+    id: 6,
+    category: "mains",
+    name: "Palak Paneer",
+    description: "Fresh cottage cheese cubes in a smooth, spiced spinach gravy.",
+    price: 260,
+    veg: true,
+    popular: false,
+  },
+  {
+    id: 7,
+    category: "mains",
+    name: "Mutton Rogan Josh",
+    description: "Slow-braised mutton in aromatic Kashmiri spices.",
+    price: 380,
+    veg: false,
+    popular: false,
+  },
+  // Breads
+  {
+    id: 8,
+    category: "breads",
+    name: "Butter Naan",
+    description: "Leavened bread brushed with butter, baked in clay oven.",
+    price: 60,
+    veg: true,
+    popular: false,
+  },
+  {
+    id: 9,
+    category: "breads",
+    name: "Garlic Naan",
+    description: "Naan topped with fresh garlic and coriander.",
+    price: 70,
+    veg: true,
+    popular: true,
+  },
+  {
+    id: 10,
+    category: "breads",
+    name: "Laccha Paratha",
+    description: "Flaky, layered whole-wheat bread made on the griddle.",
+    price: 65,
+    veg: true,
+    popular: false,
+  },
+  // Desserts
+  {
+    id: 11,
+    category: "desserts",
+    name: "Gulab Jamun",
+    description: "Soft milk-solid dumplings soaked in rose-flavoured sugar syrup.",
+    price: 120,
+    veg: true,
+    popular: true,
+  },
+  {
+    id: 12,
+    category: "desserts",
+    name: "Kulfi Falooda",
+    description: "Traditional Indian ice cream served with rose syrup and vermicelli.",
+    price: 150,
+    veg: true,
+    popular: false,
+  },
+  // Drinks
+  {
+    id: 13,
+    category: "drinks",
+    name: "Mango Lassi",
+    description: "Chilled yoghurt blended with sweet Alphonso mangoes.",
+    price: 100,
+    veg: true,
+    popular: true,
+  },
+  {
+    id: 14,
+    category: "drinks",
+    name: "Masala Chai",
+    description: "Spiced Indian tea brewed with ginger, cardamom, and cinnamon.",
+    price: 60,
+    veg: true,
+    popular: false,
+  },
+  {
+    id: 15,
+    category: "drinks",
+    name: "Fresh Lime Soda",
+    description: "Sparkling water with fresh lime juice, served sweet or salted.",
+    price: 80,
+    veg: true,
+    popular: false,
+  },
+];
